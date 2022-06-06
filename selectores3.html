@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: blue;
+        }
+        p::first-letter {
+            color: darkgoldenrod;
+        }
+        p::before {
+            content: "🫡";
+        }
+        p::after {
+            content: "😈";
+        }
+        p:hover {
+            color: aqua;
+        }
+        div p:nth-child(2) {
+            color:blueviolet
+        }
+        ::placeholder {
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>pLATZI</p>
+        <P>master</P>
+        <p>lo mejor</p>
+    </div>
+    <input type="text" placeholder="Nombre">
+</body>
+</html>
